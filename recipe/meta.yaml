@@ -30,9 +30,11 @@ requirements:
     - seaborn >=0.10.0
     - scipy >=1.3.0
     - sympy >=1.3
+
 test:
   imports:
     - pyEPR
+
 about:
   home: https://github.com/zlatko-minev/pyEPR
   license: BSD-3-Clause
