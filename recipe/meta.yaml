@@ -1,5 +1,5 @@
 {% set name = "pyepr-quantum" %}
-{% set version = "0.8.03" %}
+{% set version = "0.8.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,16 +7,16 @@ package:
 
 source:
   url: https://github.com/zlatko-minev/pyEPR/archive/{{ version }}.tar.gz
-  sha256: 574be90499eef9481b0c2643aa72e471215a42cbb8c3375a29afd5e0ec7b3da3
+  sha256: 7d7954b5f026f2c6bc3e4c0fa4241cb9abcd1fad1ce9fda69ce6108f9e92b2b3
 
 build:
   noarch: python
-  number: 2
-  script: "{{ PYTHON }} -m pip install . -vv"
+  number: 0
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - python
+    - python >=3.6
     - pip
   run:
     - attrdict
@@ -25,7 +25,7 @@ requirements:
     - numpy >=1.15.0
     - pandas >=1.0.1
     - pint
-    - python
+    - python >=3.6
     - qutip
     - seaborn >=0.10.0
     - sphinx_rtd_theme >=0.4.0

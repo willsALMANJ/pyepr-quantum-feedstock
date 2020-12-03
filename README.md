@@ -5,11 +5,13 @@ Home: https://github.com/zlatko-minev/pyEPR
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyepr-quantum-feedstock/blob/master/LICENSE.txt)
 
 Summary: Automated Python module for the design and quantization of Josephson quantum circuits
 
+Development: https://github.com/zlatko-minev/pyEPR
 
+Documentation: https://pyepr-docs.readthedocs.io/
 
 Current build status
 ====================
@@ -17,7 +19,7 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=master">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9903&branchName=master">
         <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyepr-quantum-feedstock?branchName=master">
       </a>
     </td>
